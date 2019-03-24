@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    >
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:id="@+id/player_id"
+        android:text="Player" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ignite"
+        android:layout_marginTop="15dp"
+      />
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/left_time"
+        android:gravity="center_vertical"
+        android:text="200"/>
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/blink"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/left_time1"
+        android:text="200"/>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="setting"
+        android:src="@drawable/settings"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
